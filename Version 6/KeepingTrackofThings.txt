@@ -1,0 +1,34 @@
+- Day 1: Created simple sprite sheet for player
+	 researched on control schemes
+	 imported simple platforms
+	 due to time constraints, i ensure the inputs, collision and player movement work before implementing everything else
+	
+	 if (spriteOver) {
+	 	tint = red;
+		if (p.jumpOut){
+		 setVelocity = -500
+		}
+	 } else {
+		tint = reset
+	 }
+
+         found a bug - where the button is being pressed, is not resetting colour. However when I fixed it by adjusting the IF,
+	 I realised this can be an effective UX feature where player knows they're still jumping
+
+- Day 2: Created a Method/Class List
+	 Helps with placing in I/O Systems
+	 Refer to GDD UI
+	 UI Class - classes needed to be set up before unloading the config (my mistake when it runs)
+	 I need to place all my objects in a new class
+	setScale was helpful - change the size of the object
+	new event learned: this.scene.launch(allows scene to run simulteneously)
+	had to figure out the issue with left/right buttons
+
+
+
+- Week 2: Tile Maps
+	 Parallax
+	 due to constraints - Imported premade assets from opengameart.org to shrink development time
+	 URL: https://opengameart.org/content/industrial-parallax-background
+	 
+	 
